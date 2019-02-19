@@ -24,22 +24,6 @@
         return false; 
     }); 
 	
-	// Menu show Hide
-	var counter = 0;
-	$('.wd_menu_btn').on("click", function(e){
-		if( counter == '0') {
-			$('.wd_main_menu_wrapper').addClass('wd_main_menu_hide');
-			$(this).children().removeAttr('class');
-			$(this).children().attr('class','fa fa-close');
-			counter++;
-		}
-		else {
-			$('.wd_main_menu_wrapper').removeClass('wd_main_menu_hide');
-			$(this).children().removeAttr('class');
-			$(this).children().attr('class','fa fa-bars');
-			counter--;
-		}		
-	});
 	
 	// Menu js for Position fixed
 	$(window).scroll(function(){
