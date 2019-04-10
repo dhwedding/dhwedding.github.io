@@ -290,7 +290,7 @@
 	});
 	
 	// CountDown Js
-	var deadline = 'April 20 2019 09:00:00 UTC+07:00';
+	var deadline = 'April 28 2019 09:00:00 UTC+07:00';
 		function time_remaining(endtime){
 			var t = Date.parse(endtime) - Date.parse(new Date());
 			var seconds = Math.floor( (t/1000) % 60 );
